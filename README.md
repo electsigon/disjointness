@@ -2,6 +2,8 @@
 
 This is a program written in python meant to help with computing the disjointness for a given code.  
 
+Dependencies are managed by poetry, read pyproject.toml for dependencies, or use poetry to run the code directly.
+
 ## Running the Program
 
 Given a set of stabilizer generators (written in binary symplectic form), run the following code:
@@ -19,4 +21,6 @@ For an example, a [[14, 3, 3]] stabilizer code is written in the proper format i
 
 ## More Information
 
-This code is based off of work presented in this paper.
+To run the code with poetry, simply type poetry run before all of the commands listed above.
+
+This code is based off of work presented in this paper [].
